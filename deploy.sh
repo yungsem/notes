@@ -3,6 +3,11 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 推送 notes 目录到 https://github.com/yungsem/notes
+git add .
+git commit -m 'doc: add notes'
+git push
+
 # 先推送 note 目录下的内容到 https://github.com/yungsem/note
 cd docs/note
 git add .

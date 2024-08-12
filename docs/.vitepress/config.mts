@@ -30,6 +30,7 @@ export default defineConfig({
           { text: 'Redis', link: '/note/计算机/redis/01.运维/部署单节点实例.md' },
           { text: 'InfluxDB', link: '/note/计算机/influxdb/01.运维/核心概念.md' },
           { text: 'Vim', link: '/note/计算机/vim/01.使用技巧/移动光标.md' },
+          { text: '性能测试', link: '/note/计算机/pt/01.基础理论/性能指标.md' },
         ]
       }
     ],
@@ -143,7 +144,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/note/计算机//': [
+      '/note/计算机/vim/': [
         {
           text: '',
           items: [
@@ -153,6 +154,21 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '移动光标', link: '/note/计算机/vim/01.使用技巧/移动光标.md' },
+              ]
+            },
+          ]
+        }
+      ],
+      '/note/计算机/pt/': [
+        {
+          text: '',
+          items: [
+            // 章节
+            { 
+              text: '01.基础理论',
+              collapsed: false,
+              items: [
+                { text: '性能指标', link: '/note/计算机/pt/01.基础理论/性能指标.md' },
               ]
             },
           ]

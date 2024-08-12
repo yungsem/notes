@@ -16,3 +16,4 @@ next: false
   - [Redis](/note/计算机/redis/01.运维/部署单节点实例.md)
   - [InfluxDB](/note/计算机/influxdb/01.运维/部署单节点实例.md)
   - [Vim](/note/计算机/vim/01.使用技巧/移动光标.md)
+  - [性能测试](/note/计算机/pt/01.基础理论/性能指标.md)
