@@ -9,12 +9,12 @@ git commit -m 'doc: add notes'
 git push
 
 # 先推送 note 目录下的内容到 https://github.com/yungsem/note
-cd docs/note
-git add .
-git commit -m 'doc: add notes'
-git push
+# cd docs/note
+# git add .
+# git commit -m 'doc: add notes'
+# git push
 
-cd ../../
+# cd ../../
 
 # 生成静态文件
 pnpm docs:build
