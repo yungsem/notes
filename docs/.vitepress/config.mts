@@ -171,6 +171,16 @@ export default defineConfig({
                 { text: '性能指标', link: '/note/计算机/pt/01.基础理论/性能指标.md' },
               ]
             },
+            { 
+              text: '02.脚本录制',
+              collapsed: false,
+              items: [
+                { text: '本地代理录制', link: '/note/计算机/pt/02.脚本录制/本地代理录制.md' },
+                { text: '录制选项设置', link: '/note/计算机/pt/02.脚本录制/录制选项设置.md' },
+                { text: '脚本优化', link: '/note/计算机/pt/02.脚本录制/脚本优化.md' },
+                { text: '脚本回放设置', link: '/note/计算机/pt/02.脚本录制/脚本回放设置.md' },
+              ]
+            },
           ]
         }
       ],
