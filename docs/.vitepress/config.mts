@@ -179,6 +179,11 @@ export default defineConfig({
                 { text: '录制选项设置', link: '/note/计算机/pt/02.脚本录制/录制选项设置.md' },
                 { text: '脚本优化', link: '/note/计算机/pt/02.脚本录制/脚本优化.md' },
                 { text: '脚本回放设置', link: '/note/计算机/pt/02.脚本录制/脚本回放设置.md' },
+                { text: '脚本参数', link: '/note/计算机/pt/02.脚本录制/脚本参数.md' },
+                { text: '规则关联', link: '/note/计算机/pt/02.脚本录制/规则关联.md' },
+                { text: '事务', link: '/note/计算机/pt/02.脚本录制/事务.md' },
+                { text: '结果检查', link: '/note/计算机/pt/02.脚本录制/结果检查.md' },
+
               ]
             },
           ]
