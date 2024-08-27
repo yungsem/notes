@@ -30,7 +30,8 @@ export default defineConfig({
           { text: 'Redis', link: '/note/计算机/redis/01.运维/部署单节点实例.md' },
           { text: 'InfluxDB', link: '/note/计算机/influxdb/01.运维/核心概念.md' },
           { text: 'Vim', link: '/note/计算机/vim/01.使用技巧/移动光标.md' },
-          { text: '性能测试', link: '/note/计算机/pt/01.基础理论/性能指标.md' },
+          { text: 'LoadRunner', link: '/note/计算机/loadrunner/01.基础理论/性能指标.md' },
+          { text: 'Linux运维', link: '/note/计算机/linux-ops/01.监控/Docker安装Netdata.md' },
         ]
       }
     ],
@@ -159,7 +160,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/note/计算机/pt/': [
+      '/note/计算机/loadrunner/': [
         {
           text: '',
           items: [
@@ -168,24 +169,39 @@ export default defineConfig({
               text: '01.基础理论',
               collapsed: false,
               items: [
-                { text: '性能指标', link: '/note/计算机/pt/01.基础理论/性能指标.md' },
+                { text: '性能指标', link: '/note/计算机/loadrunner/01.基础理论/性能指标.md' },
               ]
             },
             { 
               text: '02.脚本录制',
               collapsed: false,
               items: [
-                { text: '本地代理录制', link: '/note/计算机/pt/02.脚本录制/本地代理录制.md' },
-                { text: '录制选项设置', link: '/note/计算机/pt/02.脚本录制/录制选项设置.md' },
-                { text: '脚本优化', link: '/note/计算机/pt/02.脚本录制/脚本优化.md' },
-                { text: '脚本回放设置', link: '/note/计算机/pt/02.脚本录制/脚本回放设置.md' },
-                { text: '脚本参数', link: '/note/计算机/pt/02.脚本录制/脚本参数.md' },
-                { text: '规则关联', link: '/note/计算机/pt/02.脚本录制/规则关联.md' },
-                { text: '事务', link: '/note/计算机/pt/02.脚本录制/事务.md' },
-                { text: '结果检查', link: '/note/计算机/pt/02.脚本录制/结果检查.md' },
+                { text: '本地代理录制', link: '/note/计算机/loadrunner/02.脚本录制/本地代理录制.md' },
+                { text: '录制选项设置', link: '/note/计算机/loadrunner/02.脚本录制/录制选项设置.md' },
+                { text: '脚本优化', link: '/note/计算机/loadrunner/02.脚本录制/脚本优化.md' },
+                { text: '脚本回放设置', link: '/note/计算机/loadrunner/02.脚本录制/脚本回放设置.md' },
+                { text: '脚本参数', link: '/note/计算机/loadrunner/02.脚本录制/脚本参数.md' },
+                { text: '规则关联', link: '/note/计算机/loadrunner/02.脚本录制/规则关联.md' },
+                { text: '事务', link: '/note/计算机/loadrunner/02.脚本录制/事务.md' },
+                { text: '结果检查', link: '/note/计算机/loadrunner/02.脚本录制/结果检查.md' },
 
               ]
             },
+          ]
+        }
+      ],
+      '/note/计算机/linux-ops/': [
+        {
+          text: '',
+          items: [
+            // 章节
+            { 
+              text: '01.监控',
+              collapsed: false,
+              items: [
+                { text: 'Docker安装Netdata', link: '/note/计算机/linux-ops/01.监控/Docker安装Netdata.md' },
+              ]
+            }
           ]
         }
       ],
