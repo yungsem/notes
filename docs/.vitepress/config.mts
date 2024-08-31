@@ -170,6 +170,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '性能指标', link: '/note/计算机/loadrunner/01.基础理论/性能指标.md' },
+                { text: 'Win12安装LoadRunner11', link: '/note/计算机/loadrunner/01.基础理论/Win12安装LoadRunner11.md' },
               ]
             },
             { 
