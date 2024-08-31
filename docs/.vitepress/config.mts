@@ -91,6 +91,22 @@ export default defineConfig({
           ]
         }
       ],
+      '/note/计算机/git/': [
+        {
+          text: '',
+          items: [
+            // 章节
+            { 
+              text: '01.常用功能',
+              collapsed: false,
+              items: [
+                { text: '创建ssh密钥', link: '/note/计算机/git/01.常用功能/f.md' },
+                { text: '远程仓库设置', link: '/note/计算机/git/01.常用功能/远程仓库设置.md' },
+              ]
+            },
+          ]
+        }
+      ],
       '/note/计算机/redis/': [
         {
           text: '',
@@ -155,6 +171,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '移动光标', link: '/note/计算机/vim/01.使用技巧/移动光标.md' },
+                { text: '替换字符串', link: '/note/计算机/vim/01.使用技巧/替换字符串.md' },
               ]
             },
           ]
@@ -197,10 +214,25 @@ export default defineConfig({
           items: [
             // 章节
             { 
-              text: '01.监控',
+              text: '01.网络设置',
               collapsed: false,
               items: [
-                { text: 'Docker安装Netdata', link: '/note/计算机/linux-ops/01.监控/Docker安装Netdata.md' },
+                { text: '防火墙设置', link: '/note/计算机/linux-ops/01.网络设置/防火墙设置.md' },
+                { text: '网络抓包', link: '/note/计算机/linux-ops/01.网络设置/网络抓包.md' },
+              ]
+            },
+            { 
+              text: '02.文件系统',
+              collapsed: false,
+              items: [
+                { text: 'Windows公共网盘挂载', link: '/note/计算机/linux-ops/02.文件系统/Windows公共网盘挂载.md' },
+              ]
+            },
+            { 
+              text: '03.监控',
+              collapsed: false,
+              items: [
+                { text: 'Docker安装Netdata', link: '/note/计算机/linux-ops/03.监控/Docker安装Netdata.md' },
               ]
             }
           ]
