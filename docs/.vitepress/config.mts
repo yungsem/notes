@@ -16,7 +16,7 @@ export default defineConfig({
     nav: [
       { text: '历史', 
         items: [
-          { text: '史记', link: '/note/历史/史记/01.本纪/五帝本纪.md' },
+          { text: '史记', link: '/note/历史/史记/01.本纪/三皇.md' },
         ]
       },
       { text: '计算机', 
@@ -40,6 +40,7 @@ export default defineConfig({
               text: '1.本纪',
               collapsed: false,
               items: [
+                { text: '三皇本纪', link: '/note/历史/史记/01.本纪/三皇本纪.md' },
                 { text: '五帝本纪', link: '/note/历史/史记/01.本纪/五帝本纪.md' },
               ]
             },
