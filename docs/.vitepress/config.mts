@@ -14,14 +14,9 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '英语', 
+      { text: '历史', 
         items: [
-          { text: '语法', link: '/note/英语/语法/01.基本句型/五种基本句型.md' },
-        ]
-      },
-      { text: '社科', 
-        items: [
-          { text: '史记', link: '/note/社科/史记/01.上古传说/三皇.md' },
+          { text: '史记', link: '/note/历史/史记/01.本纪/五帝本纪.md' },
         ]
       },
       { text: '计算机', 
@@ -36,39 +31,16 @@ export default defineConfig({
       }
     ],
     sidebar: {
-      '/note/英语/语法/': [
+      '/note/历史/史记/': [
         {
           text: '',
           items: [
             // 章节
             { 
-              text: '1.基本句型',
+              text: '1.本纪',
               collapsed: false,
               items: [
-                { text: '五种基本句型', link: '/note/英语/语法/01.基本句型/五种基本句型.md' },
-              ]
-            },
-            { 
-              text: '2.词性',
-              collapsed: false,
-              items: [
-                { text: '名词', link: '/note/英语/语法/02.词性/名词.md' },
-                { text: '动词', link: '/note/英语/语法/02.词性/动词.md' },
-              ]
-            },
-          ]
-        },
-      ],
-      '/note/社科/史记/': [
-        {
-          text: '',
-          items: [
-            // 章节
-            { 
-              text: '1.上古传说',
-              collapsed: false,
-              items: [
-                { text: '三皇', link: '/note/社科/史记/01.上古传说/三皇.md' },
+                { text: '五帝本纪', link: '/note/历史/史记/01.本纪/五帝本纪.md' },
               ]
             },
           ]
