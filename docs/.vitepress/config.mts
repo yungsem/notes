@@ -200,6 +200,7 @@ export default defineConfig({
               items: [
                 { text: 'Windows公共网盘挂载', link: '/note/计算机/linux-ops/02.文件系统/Windows公共网盘挂载.md' },
                 { text: '内网文件快速传输', link: '/note/计算机/linux-ops/02.文件系统/内网文件快速传输.md' },
+                { text: 'docker compose部署lsyncd', link: '/note/计算机/linux-ops/02.文件系统/docker compose部署lsyncd.md' },
               ]
             },
             { 
