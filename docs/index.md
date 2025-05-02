@@ -18,5 +18,6 @@ next: false
   - 数据库
     - [Redis](/note/计算机/redis/01.运维/部署单节点实例.md)
     - [InfluxDB](/note/计算机/influxdb/01.运维/部署单节点实例.md)
+    - [Elasticsearch](/note/计算机/es/01.安装/Elasticsearch简介.md)
   - 测试
     - [LoadRunner](/note/计算机/loadrunner/01.基础理论/性能指标.md)

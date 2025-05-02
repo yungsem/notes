@@ -134,6 +134,38 @@ export default defineConfig({
           ]
         }
       ],
+      '/note/计算机/es/': [
+        {
+          text: '',
+          items: [
+            // 章节
+            { 
+              text: '01.安装',
+              collapsed: false,
+              items: [
+                { text: 'Elasticsearch简介', link: '/note/计算机/es/01.安装/Elasticsearch简介.md' },
+                { text: '安装单节点Elasticsearch', link: '/note/计算机/es/01.安装/安装单节点Elasticsearch.md' },
+                { text: '安装分词器', link: '/note/计算机/es/01.安装/安装分词器.md' },
+              ]
+            },
+            { 
+              text: '02.理论基础',
+              collapsed: false,
+              items: [
+                { text: '倒排索引', link: '/note/计算机/es/02.理论基础/倒排索引.md' },
+                { text: '核心概念', link: '/note/计算机/es/02.理论基础/核心概念.md' },
+                { text: '索引的操作', link: '/note/计算机/es/02.理论基础/索引的操作.md' },
+                { text: '索引别名', link: '/note/计算机/es/02.理论基础/索引别名.md' },
+                { text: '文档的新增', link: '/note/计算机/es/02.理论基础/文档的新增.md' },
+                { text: '文档的更新', link: '/note/计算机/es/02.理论基础/文档的更新.md' },
+                { text: '文档的删除', link: '/note/计算机/es/02.理论基础/文档的删除.md' },
+                { text: '文档的查询', link: '/note/计算机/es/02.理论基础/文档的查询.md' },
+
+              ]
+            },
+          ]
+        }
+      ],
       '/note/计算机/vim/': [
         {
           text: '',
