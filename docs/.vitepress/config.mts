@@ -160,6 +160,7 @@ export default defineConfig({
                 { text: '文档的更新', link: '/note/计算机/es/02.理论基础/文档的更新.md' },
                 { text: '文档的删除', link: '/note/计算机/es/02.理论基础/文档的删除.md' },
                 { text: '文档的查询', link: '/note/计算机/es/02.理论基础/文档的查询.md' },
+                { text: '文档搜索的综合示例', link: '/note/计算机/es/02.理论基础/文档搜索的综合示例.md' },
 
               ]
             },
